@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/todos.css">
+    <!-- Google Fonts: Roboto -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,500" rel="stylesheet" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <script type="text/javascript" src="assets/js/lib/jquery-3.4.1.min.js"></script>
 
@@ -15,19 +18,18 @@
 </head>
 <body>
     <div id="container">
-        <h1>To-Do List</h1>
-        <input type="text">
+        <h1>To-Do List <i class="fa fa-plus"></i></h1>
+        <input type="text" placeholder="Add New Todo"> 
 
-        <ul>
-            <li><span>X</span> Prepare diner</li>
-            <li><span>X</span> Do some coding</li>
-            <li><span>X</span> Visit Nena</li>
-        </ul>
+        <div id="TodoListing"></div>
     </div>
 
+    <!--
     <audio id="papersound">
         <source src="audio/paper.wav" type="audio/mpeg">
     </audio> 
+    -->
+
     <script text="text/javascript" src="assets/js/todos.js"></script>
 </body>
 </html>
